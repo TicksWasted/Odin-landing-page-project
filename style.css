@@ -1,0 +1,33 @@
+body {
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header, .footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.header {
+    padding: 20px 150px;
+
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+ul {
+    list-style: none;
+}
