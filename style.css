@@ -100,4 +100,36 @@ li a {
     height: 215px;
 }
 
+.content {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 250px;
+    padding-right: 250px;
+}
 
+.main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    min-width: 500px;
+    max-width: 1150px;
+}
+
+.main-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+
+}
+
+.main-header {
+    flex-wrap: nowrap;
+    color: #1f2937;
+}
+
+.white-box {
+}
